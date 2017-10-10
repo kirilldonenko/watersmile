@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+.slide-one {
+  background-color: rgb(132, 188, 224);
+  position: absolute;
+  left: 45px;
+  top: 240px;
+  width: 1810px;
+  height: 575px;
+  z-index: 29;
+}
