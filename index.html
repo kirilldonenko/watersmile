@@ -4,125 +4,313 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Watersmile</title>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic" rel="stylesheet"> -->
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/owlcarousel.css" rel="stylesheet">
+  <link href="css/owlcarousel-default.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page">
-  <header class="header">
-    <section class="social">
-      <ul class="social__list">
-        <li class="social__item"><a href="#"><img src="css/fb.png" alt="fb"></a></li>
-        <li class="social__item"><a href="#"><img src="css/tw.png" alt="tw"></a></li>
-        <li class="social__item"><a href="#"><img src="css/insta.png" alt="insta"></a></li>
-        <li class="social__item"><a href="#"><img src="css/vk.png" alt="vk"></a></li>
-      </ul>
-    </section>
-    <img class="header__tel" src="css/tel.pmg" alt="tel">
-    <section class="plugin-and-cart">
-      <a class="plugin-and-cart__link" href="#"><img src="css/plugin.png" alt="Вход"></a>
-      <a class="plugin-and-cart__link" href="#"><img src="css/cart.png" alt="Корзина"></a>
-    </section>
-  </header>
-  <div class="logo">
-    <a class="logo__link" href="#"><img src="css/logo.png" width="405" height="75" alt="logo"></a>
-  </div>
-  <nav class="main-nav">
-    <ul class="main-nav__list">
-      <li class="main-nav__item"><a href="#">О нас</a></li>
-      <li class="main-nav__item">Каталог товаров
-        <ul class="main-nav__submenu">
-          <li class="main-nav__sub-item"><a href="#">Кулеры для воды</a></li>
-          <li class="main-nav__sub-item"><a href="#">Охладители воды</a></li>
-          <li class="main-nav__sub-item"><a href="#">Питьевые фонтанчики</a></li>
-          <li class="main-nav__sub-item"><a href="#">Фильтры для воды</a></li>
-          <li class="main-nav__sub-item"><a href="#">Осушители воздуха</a></li>
-          <li class="main-nav__sub-item"><a href="#">Питьевые аппараты Natura&reg;</a></li>
-          <li class="main-nav__sub-item"><a href="#">Пурифайеры</a></li>
+  <div class="page-container">
+    <header class="header">
+      <section class="social">
+        <ul class="social__list">
+          <li class="social__item"><a href="#"><img src="images/fb.png" width="14" height="20" alt="fb"></a></li>
+          <li class="social__item"><a href="#"><img src="images/tw.png" width="25" height="18" alt="tw"></a></li>
+          <li class="social__item"><a href="#"><img src="images/insta.png" width="20" height="20" alt="insta"></a></li>
+          <li class="social__item"><a href="#"><img src="images/vk.png" width="28" height="17" alt="vk"></a></li>
         </ul>
-      </li>
-      <li class="main-nav__item"><a href="#">Доставка и оплата</a></li>
-      <li class="main-nav__item"><a href="#">Условия аренды</a></li>
-      <li class="main-nav__item"><a href="#">Гарантия и сервис</a></li>
-      <li class="main-nav__item"><a href="#">Контакты</a></li>
-    </ul>
-  </nav>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="first-slide" src="#" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="second-slide" src="#" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="third-slide" src="#" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="fourth-slide" src="#" alt="Fourth slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
+      </section>
+      <div class="tel">
+        <p class="tel__item"><i class="fa fa-phone tel__icon" aria-hidden="true"></i>+7-909-7-907-999</p>
+        <p class="tel__item"><i class="fa fa-phone tel__icon" aria-hidden="true"></i>+7-921-0-089-518</p>
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <section class="plugin-and-cart">
+        <a class="plugin-and-cart__link" href="#"><img src="images/plugin.png" alt="Вход"></a>
+        <a class="plugin-and-cart__link" href="#"><img src="images/cart.png" alt="Корзина"></a>
+      </section>
+    </header>
+    <div class="logo">
+      <a class="logo__link" href="#"><img src="images/logo.png" width="405" height="75" alt="logo"></a>
     </div>
-    <section class="catalog">
-      <ul class="catalog__list">
-        <li class="catalog__item"><a href="#">Кулеры для воды</a></li>
-        <li class="catalog__item"><a href="#">Охладители воды</a></li>
-        <li class="catalog__item"><a href="#">Питьевые фонтанчики</a></li>
-        <li class="catalog__item"><a href="#">Фильтры для воды</a></li>
-        <li class="catalog__item"><a href="#">Осушители воздуха</a></li>
-        <li class="catalog__item"><a href="#">Питьевые аппараты Natura&reg;</a></li>
-        <li class="catalog__item"><a href="#">Пурифайеры</a></li>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a class="main-nav__link" href="#">О нас</a></li>
+        <li class="main-nav__item"><span class="main-nav__sub">Каталог товаров</span><i id="arrow-down" class="fa fa-angle-down arrow-down" aria-hidden="true"></i>
+          <ul id="submenu" class="main-nav__submenu">
+            <li class="main-nav__sub-item"><a class="main-nav__sub-link" href="#">Кулеры для воды</a></li>
+            <li class="main-nav__sub-item"><a class="main-nav__sub-link" href="#">Охладители воды</a></li>
+            <li class="main-nav__sub-item"><a class="main-nav__sub-link" href="#">Питьевые фонтанчики</a></li>
+            <li class="main-nav__sub-item"><a class="main-nav__sub-link" href="#">Фильтры для воды</a></li>
+            <li class="main-nav__sub-item"><a class="main-nav__sub-link" href="#">Осушители воздуха</a></li>
+            <li class="main-nav__sub-item"><a class="main-nav__sub-link" href="#">Питьевые аппараты Natura&reg;</a></li>
+            <li class="main-nav__sub-item"><a class="main-nav__sub-link" href="#">Пурифайеры</a></li>
+          </ul>
+        </li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Доставка и оплата</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Условия аренды</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Гарантия и сервис</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Контакты</a></li>
       </ul>
-    </section>
-    <section class="best-goods">
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="images/elitefon.png" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block text-left">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="images/elitefon.png" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Another example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="images/elitefon.png" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block text-right">
+                <h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="fourth-slide" src="images/elitefon.png" alt="Fourth slide">
+            <div class="container">
+              <div class="carousel-caption d-none d-md-block text-right">
+                <h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <section class="catalog">
+        <h2 class="catalog__title">Каталог товаров</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item"><img class="catalog__img" src="images/catalog-1.png" alt="Кулеры"><a class="catalog__link" href="#">Кулеры для воды</a></li>
+          <li class="catalog__item"><img class="catalog__img" src="images/catalog-2.png" alt="Кулеры"><a class="catalog__link" href="#">Охладители воды</a></li>
+          <li class="catalog__item"><img class="catalog__img" src="images/catalog-3.png" alt="Кулеры"><a class="catalog__link" href="#">Питьевые фонтанчики</a></li>
+          <li class="catalog__item"><img class="catalog__img" src="images/catalog-4.png" alt="Кулеры"><a class="catalog__link" href="#">Фильтры для воды</a></li>
+          <li class="catalog__item"><img class="catalog__img" src="images/catalog-1.png" alt="Кулеры"><a class="catalog__link" href="#">Осушители воздуха</a></li>
+          <li class="catalog__item"><img class="catalog__img" src="images/catalog-2.png" alt="Кулеры"><a class="catalog__link" href="#">Питьевые аппараты Natura&reg;</a></li>
+          <li class="catalog__item"><img class="catalog__img" src="images/catalog-3.png" alt="Кулеры"><a class="catalog__link" href="#">Пурифайеры</a></li>
+        </ul>
+      </section>
+      <section class="best-goods">
+        <h2 class="catalog__title">Популярные товары</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+        </div>
+      </section>
+      <section class="sale">
+        <h2 class="catalog__title">Акционные товары</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-oldprice">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-oldprice">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-oldprice">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-oldprice">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-oldprice">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-oldprice">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+          <div class="carousel-1-item item">
+            <img src="images/product.png" width="270" height="290" alt="фото">
+            <div class="carousel-1-head">Best</div>
+            <div class="carousel-1-name">Кулер BR1CTHSY белый</div>
+            <div class="carousel-1-price">8000 руб</div>
+            <div class="carousel-1-oldprice">8000 руб</div>
+            <div class="carousel-1-buy">Купить</div>
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <p><span class="about-us__name">ООО "Оазис РУС"</span>- официальный представитель европейской компании WaterSmile поставляющей оборудование для розлива, нагрева, охлаждения, фильтрации питьевой воды, а также осушители воздуха американско-европейской торговой марки Oasis. В интернет-магазине (http://watersmile.ru) ООО "Оазис РУС" Вы можете заказать и купить товары оптом и в розницу. Мы готовы оперативно обрабатывать Ваши заказы, отправленные по электронной почте или по телефону с 8.00 до 17.00 по московскому времени в будние дни.
+        </p>
+        <p><span>ООО "Оазис РУС"</span>- официальный представитель европейской компании WaterSmile поставляющей оборудование для розлива, нагрева, охлаждения, фильтрации питьевой воды, а также осушители воздуха американско-европейской торговой марки Oasis. В интернет-магазине (http://watersmile.ru) ООО "Оазис РУС" Вы можете заказать и купить товары оптом и в розницу. Мы готовы оперативно обрабатывать Ваши заказы, отправленные по электронной почте или по телефону с 8.00 до 17.00 по московскому времени в будние дни.
+        </p>
+        <p><span>ООО "Оазис РУС"</span>- официальный представитель европейской компании WaterSmile поставляющей оборудование для розлива, нагрева, охлаждения, фильтрации питьевой воды, а также осушители воздуха американско-европейской торговой марки Oasis. В интернет-магазине (http://watersmile.ru) ООО "Оазис РУС" Вы можете заказать и купить товары оптом и в розницу. Мы готовы оперативно обрабатывать Ваши заказы, отправленные по электронной почте или по телефону с 8.00 до 17.00 по московскому времени в будние дни.
+        </p>
+        <p>Желаем Вам приятных покупок!
+        </p>
+      </section>
+  </div>
+  <footer class="footer">
+    <div class="footer__block">
+      <div class="footer__copyright">
+        <p>&reg; Интернет-магазин &laquo;Оазис <span>тм</span>&raquo; 2012-2017</p>
+        <p>Все права защищены. Оазис является зарегистрированной торговой маркой с 2013 года.</p>
+      </div>
+      <div class="schedule">
+        <p><span class="schedule__day">Пн-Пт: </span>08.00 до 17.00 (по московскому времени)
+        </p>
+        <p><span class="schedule__day">Сб-Вс: </span>выходные
+        </p>
+      </div>
+      <div class="tel">
+        <p><span class="tel__icon"></span>+7-909-7-907-999</p>
+        <p><span class="tel__icon"></span>+7-921-0-089-518</p>
+      </div>
+    </div>
+    <div class="footer__block">
+      <h3>Полезная информация</h3>
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__link" href="#">Доставка и оплата</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Условия аренды</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Гарантия и сервис</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
+      </ul>
+      <div class="footer__social">
+        <section class="social">
+          <ul class="social__list">
+            <li class="social__item"><a href="#"><img src="images/fb.png" width="14" height="20" alt="fb"></a></li>
+            <li class="social__item"><a href="#"><img src="images/tw.png" width="25" height="18" alt="tw"></a></li>
+            <li class="social__item"><a href="#"><img src="images/insta.png" width="20" height="20" alt="insta"></a></li>
+            <li class="social__item"><a href="#"><img src="images/vk.png" width="28" height="17" alt="vk"></a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <div class="footer__block">
+      <h3>Принимаем к оплате</h3>
+      <img src="images/visa.png" alt="">
+      <p>Подпишитесь и получайте новости об акцияхи специальных предложениях
+      </p>
+      <form class="" action="index.html" method="post">
+        <label for="email"></label>
+        <input id="email" type="text" name="" value="">
+        <button type="submit" name="button">Подписаться</button>
+      </form>
+    </div>
+    <div class="footer__block">
+      <h3>Разработано</h3>
+      <img src="images/logoWMI.png" alt="">
+      <p>WMI</p>
+      <p>web marketing insight</p>
+    </div>
+  </footer>
 
-    </section>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/owlcarousel.min.js"></script>
+  <script src="js/setup.js"></script>
+  <script src="js/native.js"></script>
 </body>
 </html>
