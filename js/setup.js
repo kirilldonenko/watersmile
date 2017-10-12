@@ -14,6 +14,6 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     },
-    navText : ['<i id="arrow-left" class="fa fa-angle-left" aria-hidden="true"></i>',
-    '<i id="arrow-right" class="fa fa-angle-right" aria-hidden="true"></i>']
+    navText : ['<img src="images/arrow-left.png">',
+    '<img src="images/arrow-right.png">']
 })
