@@ -155,7 +155,7 @@
 .catalog__list {
   max-width: 1810px;
   margin: 0 -15px;
-  padding: 0;
+  padding: 0 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,12 +234,14 @@
 }
 
 .best-goods, .sale {
+  max-width: 1810px;
   margin: 0 auto;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 .carousel-1-item {
-  width: 315px;
-  height: 475px;
+
   position: relative;
 }
 
@@ -367,7 +369,7 @@
 }
 
 .footer {
-  width: 1900px;
+  max-width: 1900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
