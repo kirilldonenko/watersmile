@@ -530,6 +530,7 @@
   display: inline-block;
   width: 270px;
   height: 35px;
+  margin-right: 5px;
   padding-left: 10px;
   font-size: 14px;
   background-color: #84bce0;
@@ -540,7 +541,6 @@
   display: inline-block;
   width: 150px;
   height: 35px;
-  margin-left: 5px;
   background-color: #f00;
   color: #fff;
   border: none;
