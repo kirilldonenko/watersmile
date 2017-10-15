@@ -67,12 +67,20 @@
 
 .plugin-and-cart__link {
   display: inline-block;
+  padding: 0 25px;
+  padding-left: 20px;
+  color: #fff;
+  text-decoration: underline;
+  
 }
-
 .plugin-and-cart__link:first-child {
-  margin-right: 50px;
+    border-right: 1px solid #555;
 }
-
+.plugin-and-cart__icon  {
+    display: inline-block;
+    margin-right: 10px;
+    color: #84bce0;
+}
 .logo {
   height: 120px;
   padding-top: 20px;
@@ -239,7 +247,46 @@
   padding-left: 45px;
   padding-right: 45px;
 }
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    
+}
+.carousel-indicators li.active {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    
+}
+.carousel-control-prev {
+    left: 20px;
+    top: 60%;
+    
+}
+.carousel-control-next {
+   right: 20px;
+    top: 60%; 
+}
 
+.carousel-control-img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+.carousel-control-prev .carousel-control-img{
+  transform: rotate(45deg);  
+}
+.carousel-control-next .carousel-control-img{
+  transform: rotate(-135deg);  
+}
 .carousel-1-item {
 
   position: relative;
